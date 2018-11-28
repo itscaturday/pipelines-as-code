@@ -40,6 +40,7 @@ object Build : BuildType({
     steps {
         script {
             name = "Do nothing"
+            scriptContent = """echo "HELLO""""
         }
     }
 
