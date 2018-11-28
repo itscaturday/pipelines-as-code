@@ -36,6 +36,12 @@ object Build : BuildType({
     vcs {
         root(DslContext.settingsRoot)
     }
+    
+    steps {
+        script {
+            name = "Do nothing"
+        }
+    }
 
     triggers {
         vcs {
