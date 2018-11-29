@@ -41,7 +41,7 @@ object Build : BuildType({
         script {
             name = "Do nothing"
             scriptContent = """
-                #!bin/bash
+                #!/bin/bash
                 echo HELLO""".trimIndent()
         }
     }
