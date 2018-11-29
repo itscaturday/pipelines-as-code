@@ -28,7 +28,12 @@ version = "2018.1"
 project {
     description = "Smeh"
     buildType(Build)
+    subProject(TheSubProject)
 }
+
+object TheSubProject : Project({
+    name = "The subproject"
+})
 
 object Build : BuildType({
     name = "Build"
