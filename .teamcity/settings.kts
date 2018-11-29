@@ -43,7 +43,6 @@ object Build : BuildType({
             scriptContent = """
                 #!bin/bash
                 echo HELLO""".trimIndent()
-            }
         }
     }
 
