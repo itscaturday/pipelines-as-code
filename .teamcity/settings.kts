@@ -33,7 +33,7 @@ project {
 }
 
 object TheSubProject : Project({
-    name = "The subproject"
+    name = "The subproject2"
 })
 
 object Build : BuildType({
