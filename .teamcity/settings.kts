@@ -40,8 +40,10 @@ object Build : BuildType({
     steps {
         script {
             name = "Do nothing"
-            scriptContent = """#!bin/bash
-            echo "HELLO"""".trimIndent()
+            scriptContent = """
+                #!bin/bash
+                echo HELLO""".trimIndent()
+            }
         }
     }
 
